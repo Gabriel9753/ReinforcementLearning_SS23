@@ -130,3 +130,6 @@ dmypy.json
 
 # PyCharm-internal files
 /.idea/
+
+# pipenv
+rl-venv/*
