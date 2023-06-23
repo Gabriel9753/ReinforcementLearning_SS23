@@ -64,6 +64,7 @@ def main():
     plt.ylabel("Sum of Rewards")
     for i, e in enumerate(epsilons):
         plt.plot(range(0, no_episodes), plot_data[i], label=f"e={e}")
+    plt.savefig("Q_rewards.png")
     plt.legend()
     plt.show()
 
